@@ -3,3 +3,33 @@ body {
   height: 100%;
   margin: 0;
 }
+h1{
+  text-align: center;
+}
+nav { 
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+nav a{
+  background-color: rgb(160, 160, 160);
+}
+
+#featured-property {
+  align-items: center;
+  text-align: center;
+}
+
+#featured-property p{
+  text-align: center;
+  width: 710px;
+  align-items: center;
+  margin:10px  auto;
+}
+#details {
+  display: flex;
+  justify-content:space-around;
+  gap: 50px;
+  background-color: red;
+  margin-bottom: 20px;
+}
